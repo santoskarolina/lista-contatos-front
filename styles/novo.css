@@ -1,0 +1,109 @@
+header{
+    display:flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 50px;
+
+    background-color: #0077b6;
+
+    color: #fff;
+    font-size:20px;
+    font-weight:500;
+
+    height: 60px;
+}
+
+header span, a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px 0px;
+    justify-content:center;
+}
+.input{
+    width: 80%;
+    display: flex;
+    align-self: center;
+    
+    align-items: center;
+    justify-content:center;
+}
+.form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 90%;
+}
+
+.form input{
+    padding: 10px 20px;
+
+    margin: 10px 0px;
+
+    width: 100%;
+    height: 60px;
+
+    outline: none;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form button{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    background-color: #0077b6;
+
+    color: #fff;
+    font-size:20px;
+    font-weight:500;
+
+    transition: all ease .5s;
+}
+
+.form button:hover{
+    background-color: #0a699c;
+}
+
+.form p{
+    font-size:20px;
+    color: red;
+}
+.mesagem{
+    background-color: #57cc99;
+
+    font-size: 20px;
+    font-weight:500;
+    padding: 20px 20px;
+
+    margin: 20px 0px;
+
+    border-radius: 20px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    header{
+        font-size:18px;
+    }
+  }
